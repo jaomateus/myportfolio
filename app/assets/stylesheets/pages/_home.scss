@@ -1,11 +1,21 @@
 // Specific CSS for your home-page
 
 .landing-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   height: 100vh;
   background-color: black;
   color: white;
 
+  .timer {
+    justify-content: center;
+    align-items: center;
+  }
+
   .title {
     font-size: 50px;
+    padding: 20px;
   }
 }
